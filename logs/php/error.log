@@ -4,3 +4,56 @@
 [01-Jul-2024 08:44:36 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
 [01-Jul-2024 08:44:36 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
 [01-Jul-2024 08:44:36 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
+[01-Jul-2024 11:57:33 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[01-Jul-2024 14:34:20 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Jul-2024 07:03:36 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Jul-2024 07:04:14 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Jul-2024 07:15:57 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Jul-2024 08:51:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "chld_thm_cfg_locale_css" not found or invalid function name in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:326
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\theme.php(307): apply_filters('locale_styleshe...', '', 'http://planty.l...')
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\theme.php(731): get_locale_stylesheet_uri()
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): locale_stylesheet('')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(3050): do_action('wp_head')
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(16): wp_head()
+#8 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\Jean-m...')
+#9 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#10 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#13 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor\index.php(15): get_header()
+#14 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Jean-m...')
+#15 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Jean-m...')
+#16 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#17 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 326
+[02-Jul-2024 08:51:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "chld_thm_cfg_locale_css" not found or invalid function name in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:326
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\theme.php(307): apply_filters('locale_styleshe...', '', 'http://planty.l...')
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\theme.php(731): get_locale_stylesheet_uri()
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): locale_stylesheet('')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(3050): do_action('wp_head')
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(16): wp_head()
+#8 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\Jean-m...')
+#9 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#10 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#13 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor\index.php(15): get_header()
+#14 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Jean-m...')
+#15 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Jean-m...')
+#16 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#17 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 326
+[02-Jul-2024 14:29:46 UTC] PHP Parse error:  syntax error, unexpected token ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 48
+[02-Jul-2024 14:29:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[02-Jul-2024 14:29:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[02-Jul-2024 14:29:55 UTC] PHP Parse error:  syntax error, unexpected token ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 48
+[02-Jul-2024 14:29:55 UTC] PHP Parse error:  syntax error, unexpected token ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 48
+[02-Jul-2024 14:30:14 UTC] PHP Parse error:  syntax error, unexpected token ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 48
