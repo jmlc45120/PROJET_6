@@ -23,49 +23,190 @@ if (!function_exists('child_theme_configurator_css')) :
 endif;
 add_action('wp_enqueue_scripts', 'child_theme_configurator_css', 10);
 
-// AJOUT DES STYLES POUR LES BOUTONS DU HEADER :
-function my_custom_button_styles()
+// -------------------------------    HEADER     ---------------------------------------------------
+function styles_boutons_navbar()
 {
     echo '<style>
+            #id-header {
+                justify-content : center;
+                width : auto;
+                padding:0px;
+            }
             .bouton-nous-rencontrer:hover {
                 font-size: 13px;
                 font-weight: 700;
             }
             .bouton-commander {
-                height : 80px !important;
+                background-color : #E0B9B4;
+                line-height: 4.5em;
+                font-height :17px;
+                height : 80px;
+                width : 236px;
             }
             .bouton-commander:hover {
-                height: 80px !important;
+                background-color : #C02E44;
             }
           </style>';
 }
-add_action('wp_head', 'my_custom_button_styles');
+add_action('wp_head', 'styles_boutons_navbar');
 
-// AJOUT DE LA FONCTION POUR AFFICHER LE LIEN ADMIN SI UTILISATEUR CONNECTE
-function add_admin_button_to_header() {
-    if (is_user_logged_in()) {
-        echo '<a href="' . admin_url() . '" class="admin-button">Admin</a>';
+// GESTION AFFICHAGE LIEN " admin " :
+
+function add_admin_link_to_menu($items, $args)
+{
+    var_dump($args);
+    // On vérifie si l'user est connecté, et que notre menu est bien celui ayant le nom "test"
+    if (is_user_logged_in() && $args->menu == 'test') {
+        // On ajoute l'élément de menu avec un lien vers la page d'administration, incluant les mêmes classes que celle d'elementor
+        $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a class="hfe-menu-item" href="' . get_admin_url() . '">Admin</a></li>';
     }
+    return $items;
 }
-add_action('wp_head', 'add_admin_button_to_header');
+add_filter('wp_nav_menu_items', 'add_admin_link_to_menu', 10, 2);
 
-// Ajouter des styles pour le bouton d'administration
-function custom_admin_button_styles() {
+function styles_lien_admin()
+{
     echo '<style>
-        .admin-button {
-            display: inline-block;
-            padding: 20px 20px;
-            color: black;
-            Font-size: 16px;
-            font-weight: 400;
-            text-decoration: none;
-            
+            .hfe-menu-item {
+                box-sizing: border-box;
+                padding:0px 50px 0px 50px !important;
+                color : black;
+                justify-content: center;
+            }
+            .hfe-menu-item:hover {
+                box-sizing: border-box;
+                padding:0px 50px 0px 41px !important;
+                font-size: 16px;
+                font-weight: 700;//
+            }
+          </style>';
+}
+add_action('wp_head', 'styles_lien_admin');
+
+// -------------------------------    FOOTER     ----------------------------------------------------
+
+// CREATION BANDEAU DE 16 CANETTES :
+function disposition_images_footer()
+{
+    $image_url = "http://planty.local/wp-content/uploads/2024/07/Planty6-1.png";
+    $decalage_vertical = [0, -20, 0, 20, 0, -20, 20, 0, -20, 0, 20, 0, -20, 0, 20, 0]; // offsets verticaux pour effet vague
+    echo '<div class="ajust-compo-footer">';
+    foreach ($decalage_vertical as $index => $decalage) {
+        echo '<div class="image-footer" style="top: ' . $decalage . 'px;">'; // positionnement des 16 images avec offsets verticaux
+        echo '<img src="' . $image_url . '" alt="Planty Image">';
+        echo '</div>';
+    }
+    echo '</div>';
+    echo '<a class="mentions-legales-footer" href="http://planty.local/mentions-legales/">Mentions légales</a>'; // Ajout du lien "Mentions légales" sous le bandeau de canettes
+}
+add_action('wp_footer', 'disposition_images_footer');
+
+function styles_footer()
+{
+?>
+    <style>
+        .ajust-compo-footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1440px;
+            height: auto;
+            position: relative;
+            margin: 0 auto;
+            overflow: hidden;
         }
-        .admin-button:hover {
-            Font-size: 13px;
+
+        .ajust-compo-footer img {
+            height: auto;
+        }
+
+        .image-footer {
+            position: relative;
+            margin-left: -40px;
+            margin-right: -40px;
+            height: 140px;
+        }
+
+        .mentions-legales-footer {
+            display: flex;
+            padding: 20px 0px;
+            position: relative;
+            text-align: center;
+            background-color: white;
+            color: black;
+            justify-content: center;
+        }
+
+        .mentions-legales-footer:hover {
+            font-size: 18px;
             font-weight: 700;
         }
-    </style>';
+    </style>
+<?php
 }
-add_action('wp_head', 'custom_admin_button_styles');
+add_action('wp_footer', 'styles_footer');
 
+//-------------------------------------- PAGE " ACCUEIL " ---------------------------------------------
+
+// AJUSTEMENT FEUILLES SUR CANETTE DANS LOGO ACCUEIL :
+
+function styles_logo()
+{
+?>
+    <style>
+        #feuille-gauche {
+            margin-right: -125%;
+        }
+
+        #feuille-droite {
+            margin-left: -125%;
+        }
+    </style>
+<?php
+}
+add_action('wp_head', 'styles_logo');
+
+
+//----------------------------------- PAGE " NOUS RENCONTRER " ---------------------------------------
+
+// CHARGEMENT POLICES DE CARACTERES "SYNE" :
+
+function enqueue_syne_font()
+{
+    wp_enqueue_style('syne-font', 'https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap', array(), null);
+}
+add_action('wp_enqueue_scripts', 'enqueue_syne_font');
+
+// MODIFICATION DES STYLES DU FORMULAIRE :
+
+function styles_formulaire()
+{
+?>
+    <style>
+        .wpforms-submit-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .wpforms-submit {
+            color: white;
+            background-color: #E0B9B4 !important;
+        }
+
+        #wpforms-submit-937:hover {
+            color: white;
+            background-color: #C02E44 !important;
+        }
+
+        .wpforms-field-label {
+            font-family: 'Syne', sans-serif !important;
+            font-weight: 400 !important;
+            font-size: 20px !important;
+        }
+
+
+        <?php
+    }
+    add_action('wp_head', 'styles_formulaire');
+
+//----------------------------------- PAGE " COMMANDER " ----------------------------------------------

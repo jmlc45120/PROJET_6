@@ -57,3 +57,717 @@ Stack trace:
 [02-Jul-2024 14:29:55 UTC] PHP Parse error:  syntax error, unexpected token ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 48
 [02-Jul-2024 14:29:55 UTC] PHP Parse error:  syntax error, unexpected token ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 48
 [02-Jul-2024 14:30:14 UTC] PHP Parse error:  syntax error, unexpected token ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 48
+[03-Jul-2024 07:37:59 UTC] PHP Parse error:  syntax error, unexpected token ":" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 54
+[03-Jul-2024 07:38:10 UTC] PHP Parse error:  syntax error, unexpected token ":" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 54
+[03-Jul-2024 07:40:16 UTC] PHP Parse error:  syntax error, unexpected token ":" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 51
+[03-Jul-2024 09:13:16 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 94
+[03-Jul-2024 09:13:16 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 94
+[03-Jul-2024 09:13:19 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 94
+[03-Jul-2024 09:13:27 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 94
+[03-Jul-2024 12:43:35 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "styles_bouton_navbar" not found or invalid function name in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(3050): do_action('wp_head')
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(16): wp_head()
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#9 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor\index.php(15): get_header()
+#10 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Jean-m...')
+#11 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Jean-m...')
+#12 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#13 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[04-Jul-2024 08:56:19 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "(" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 162
+[04-Jul-2024 08:56:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[04-Jul-2024 08:56:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[04-Jul-2024 08:57:37 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_custom_footer_images_css" not found or invalid function name in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(3050): do_action('wp_head')
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(16): wp_head()
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#9 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor\index.php(15): get_header()
+#10 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Jean-m...')
+#11 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Jean-m...')
+#12 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#13 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[04-Jul-2024 16:43:52 UTC] PHP Parse error:  syntax error, unexpected token "*" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 95
+[04-Jul-2024 16:44:02 UTC] PHP Parse error:  syntax error, unexpected token "*" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 95
+[04-Jul-2024 16:44:03 UTC] PHP Parse error:  syntax error, unexpected token "*" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 95
+[04-Jul-2024 16:44:18 UTC] PHP Parse error:  syntax error, unexpected token "*" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 95
+[04-Jul-2024 16:44:18 UTC] PHP Parse error:  syntax error, unexpected token "*" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 95
+[04-Jul-2024 16:44:33 UTC] PHP Parse error:  syntax error, unexpected token "*" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 95
+[04-Jul-2024 16:44:37 UTC] PHP Parse error:  syntax error, unexpected token "*" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 95
+[04-Jul-2024 17:03:29 UTC] PHP Fatal error:  Cannot redeclare disposition_images_footer() (previously declared in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:87) in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 135
+[04-Jul-2024 17:03:30 UTC] PHP Fatal error:  Cannot redeclare disposition_images_footer() (previously declared in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:87) in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 135
+[04-Jul-2024 17:04:00 UTC] PHP Fatal error:  Cannot redeclare disposition_images_footer() (previously declared in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:87) in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 135
+[04-Jul-2024 17:05:29 UTC] PHP Fatal error:  Cannot redeclare disposition_images_footer() (previously declared in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:87) in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 135
+[04-Jul-2024 17:06:01 UTC] PHP Fatal error:  Cannot redeclare disposition_images_footer() (previously declared in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:87) in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 135
+[08-Jul-2024 17:19:01 UTC] PHP Parse error:  syntax error, unexpected identifier "add_shortcode" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 145
+[08-Jul-2024 17:19:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[08-Jul-2024 17:19:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[08-Jul-2024 21:26:05 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 94
+[08-Jul-2024 21:26:20 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 94
+[08-Jul-2024 21:26:23 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 94
+[08-Jul-2024 21:26:59 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 94
+[08-Jul-2024 21:28:24 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 94
+[08-Jul-2024 21:28:24 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 94
+[08-Jul-2024 21:28:55 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 94
+[08-Jul-2024 21:35:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 108 and at least 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php(108): add_action('styles_logo')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(663): include('C:\\Users\\Jean-m...')
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#6 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php on line 441
+[08-Jul-2024 21:35:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 108 and at least 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php(108): add_action('styles_logo')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(663): include('C:\\Users\\Jean-m...')
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#6 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php on line 441
+[08-Jul-2024 21:35:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 108 and at least 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php(108): add_action('styles_logo')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(663): include('C:\\Users\\Jean-m...')
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Jean-m...')
+#5 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php on line 441
+[09-Jul-2024 08:47:11 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "(" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 159
+[09-Jul-2024 08:49:11 UTC] PHP Parse error:  syntax error, unexpected token "return" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 160
+[09-Jul-2024 08:52:22 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 162
+[09-Jul-2024 08:52:33 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 162
+[09-Jul-2024 08:53:06 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 162
+[09-Jul-2024 08:53:09 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 162
+[09-Jul-2024 08:53:16 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 162
+[09-Jul-2024 08:53:21 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 162
+[09-Jul-2024 08:53:35 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 162
+[09-Jul-2024 08:53:36 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 162
+[09-Jul-2024 08:53:37 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 162
+[09-Jul-2024 08:53:39 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 162
+[09-Jul-2024 08:53:57 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 162
+[09-Jul-2024 08:53:57 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 162
+[09-Jul-2024 11:33:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_extra_item_to_nav_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:54
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): add_extra_item_to_nav_menu('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(3050): do_action('wp_head')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(16): wp_head()
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#10 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor\index.php(15): get_header()
+#11 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Jean-m...')
+#12 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Jean-m...')
+#13 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#14 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 54
+[09-Jul-2024 11:43:25 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 79
+[09-Jul-2024 11:45:17 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 80
+[09-Jul-2024 11:45:17 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 80
+[09-Jul-2024 11:45:21 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 80
+[09-Jul-2024 12:40:12 UTC] PHP Warning:  Undefined variable $decalage in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[09-Jul-2024 12:40:27 UTC] PHP Warning:  Undefined variable $decalage in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[09-Jul-2024 12:40:59 UTC] PHP Warning:  Undefined variable $decalage in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[09-Jul-2024 13:02:51 UTC] PHP Parse error:  syntax error, unexpected identifier "in" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 54
+[09-Jul-2024 13:02:55 UTC] PHP Parse error:  syntax error, unexpected identifier "in" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 54
+[09-Jul-2024 13:06:52 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 61
+[09-Jul-2024 13:06:56 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 61
+[09-Jul-2024 13:08:52 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 61
+[09-Jul-2024 13:08:56 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 61
+[09-Jul-2024 13:12:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ajout_lien_admin(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:52
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_lien_admin('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Jean-m...')
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#8 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 52
+[09-Jul-2024 13:12:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ajout_lien_admin(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:52
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_lien_admin('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Jean-m...')
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#8 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 52
+[09-Jul-2024 13:12:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ajout_lien_admin(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:52
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_lien_admin('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Jean-m...')
+#7 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 52
+[09-Jul-2024 13:12:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ajout_lien_admin(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:52
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_lien_admin('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Jean-m...')
+#7 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 52
+[09-Jul-2024 13:14:54 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 58
+[09-Jul-2024 13:14:59 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 58
+[09-Jul-2024 13:15:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ajout_lien_admin(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:52
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_lien_admin('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Jean-m...')
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#8 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 52
+[09-Jul-2024 13:15:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ajout_lien_admin(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:52
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_lien_admin('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Jean-m...')
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#8 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 52
+[09-Jul-2024 13:16:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ajout_lien_admin(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:52
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_lien_admin('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Jean-m...')
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#8 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 52
+[09-Jul-2024 13:16:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ajout_lien_admin(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:52
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_lien_admin('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Jean-m...')
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#8 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 52
+[09-Jul-2024 13:16:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ajout_lien_admin(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:52
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_lien_admin('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Jean-m...')
+#7 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 52
+[09-Jul-2024 13:17:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ajout_lien_admin(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:52
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_lien_admin('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Jean-m...')
+#7 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 52
+[09-Jul-2024 13:32:10 UTC] PHP Warning:  Undefined array key "primary" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 90
+[09-Jul-2024 13:32:15 UTC] PHP Warning:  Undefined array key "primary" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 90
+[09-Jul-2024 13:32:40 UTC] PHP Warning:  Undefined array key "primary" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 90
+[10-Jul-2024 07:16:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:103
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): add_admin_link_to_menu('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Jean-m...')
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#8 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 103
+[10-Jul-2024 07:21:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:103
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): add_admin_link_to_menu('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Jean-m...')
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#8 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 103
+[10-Jul-2024 07:24:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:104
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): add_admin_link_to_menu('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Jean-m...')
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#8 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[10-Jul-2024 07:24:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:104
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): add_admin_link_to_menu('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Jean-m...')
+#7 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[10-Jul-2024 07:24:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[10-Jul-2024 07:24:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[10-Jul-2024 07:24:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:104
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): add_admin_link_to_menu('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Jean-m...')
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#8 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[10-Jul-2024 07:26:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:104
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): add_admin_link_to_menu('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Jean-m...')
+#7 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[10-Jul-2024 07:28:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:104
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): add_admin_link_to_menu('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Jean-m...')
+#7 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[10-Jul-2024 07:28:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:104
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): add_admin_link_to_menu('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Jean-m...')
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#8 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[10-Jul-2024 07:28:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:104
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): add_admin_link_to_menu('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Jean-m...')
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#8 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[10-Jul-2024 07:30:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:104
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): add_admin_link_to_menu('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Jean-m...')
+#7 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[10-Jul-2024 07:32:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:104
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): add_admin_link_to_menu('')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Jean-m...')
+#7 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[10-Jul-2024 07:35:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:104
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): add_admin_link_to_menu('<li id="menu-it...')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-navigation-menu.php(2030): wp_nav_menu(Object(stdClass))
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): HFE\WidgetsManager\Widgets\Navigation_Menu->render()
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#8 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#9 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#10 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#11 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#12 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1867): Elementor\Element_Base->print_element()
+#13 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1792): Elementor\Core\Base\Document->do_print_elements(Array)
+#14 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1193): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1157): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1225): Elementor\Frontend->get_builder_content('151', false)
+#17 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('151')
+#18 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#19 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): hfe_render_header('')
+#20 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#21 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#22 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(23): do_action('hfe_header')
+#23 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\Jean-m...')
+#24 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#25 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#26 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#27 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#28 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor\index.php(15): get_header()
+#29 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Jean-m...')
+#30 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Jean-m...')
+#31 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#32 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[10-Jul-2024 07:35:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:104
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): add_admin_link_to_menu('<li id="menu-it...')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-navigation-menu.php(2030): wp_nav_menu(Object(stdClass))
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): HFE\WidgetsManager\Widgets\Navigation_Menu->render()
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#8 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#9 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#10 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#11 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#12 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1867): Elementor\Element_Base->print_element()
+#13 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1792): Elementor\Core\Base\Document->do_print_elements(Array)
+#14 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1193): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1157): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1225): Elementor\Frontend->get_builder_content('151', false)
+#17 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('151')
+#18 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#19 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): hfe_render_header('')
+#20 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#21 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#22 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(23): do_action('hfe_header')
+#23 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\Jean-m...')
+#24 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#25 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#26 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#27 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#28 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor\index.php(15): get_header()
+#29 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Jean-m...')
+#30 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Jean-m...')
+#31 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#32 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[10-Jul-2024 07:35:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:104
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): add_admin_link_to_menu('<li id="menu-it...')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-navigation-menu.php(2030): wp_nav_menu(Object(stdClass))
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): HFE\WidgetsManager\Widgets\Navigation_Menu->render()
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#8 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#9 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#10 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#11 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#12 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1867): Elementor\Element_Base->print_element()
+#13 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1792): Elementor\Core\Base\Document->do_print_elements(Array)
+#14 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1193): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1157): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1225): Elementor\Frontend->get_builder_content('151', false)
+#17 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('151')
+#18 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#19 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): hfe_render_header('')
+#20 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#21 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#22 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(23): do_action('hfe_header')
+#23 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\Jean-m...')
+#24 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#25 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#26 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#27 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#28 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor\index.php(15): get_header()
+#29 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Jean-m...')
+#30 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Jean-m...')
+#31 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#32 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[10-Jul-2024 07:35:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php:104
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): add_admin_link_to_menu('<li id="menu-it...')
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-navigation-menu.php(2030): wp_nav_menu(Object(stdClass))
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): HFE\WidgetsManager\Widgets\Navigation_Menu->render()
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#8 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#9 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#10 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#11 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#12 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1867): Elementor\Element_Base->print_element()
+#13 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1792): Elementor\Core\Base\Document->do_print_elements(Array)
+#14 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1193): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1157): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1225): Elementor\Frontend->get_builder_content('151', false)
+#17 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('151')
+#18 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#19 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): hfe_render_header('')
+#20 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#21 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#22 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(23): do_action('hfe_header')
+#23 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\Jean-m...')
+#24 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#25 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#26 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#27 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#28 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor\index.php(15): get_header()
+#29 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Jean-m...')
+#30 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Jean-m...')
+#31 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#32 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 104
+[10-Jul-2024 12:45:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 114 and exactly 2 expected in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php(114): register_nav_menu(Array)
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-settings.php(663): include('C:\\Users\\Jean-m...')
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\Jean-m...')
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Jean-m...')
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Jean-m...')
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#6 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\nav-menu.php on line 136
+[10-Jul-2024 12:59:06 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 129
+[10-Jul-2024 12:59:49 UTC] Current theme_location: 
+[10-Jul-2024 13:03:29 UTC] Current theme_location: navbar
+[10-Jul-2024 13:03:30 UTC] Current theme_location: 
+[10-Jul-2024 13:04:04 UTC] Current theme_location: navbar
+[10-Jul-2024 13:04:07 UTC] Current theme_location: navbar
+[10-Jul-2024 13:04:08 UTC] Current theme_location: 
+[10-Jul-2024 13:04:45 UTC] Current theme_location: navbar
+[10-Jul-2024 13:04:52 UTC] Current theme_location: 
+[10-Jul-2024 13:06:09 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[10-Jul-2024 13:07:37 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[10-Jul-2024 13:19:25 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajouter_lien_admin" not found or invalid function name in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-navigation-menu.php(2030): wp_nav_menu(Object(stdClass))
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): HFE\WidgetsManager\Widgets\Navigation_Menu->render()
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#8 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#9 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#10 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#11 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1867): Elementor\Element_Base->print_element()
+#12 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1792): Elementor\Core\Base\Document->do_print_elements(Array)
+#13 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1193): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1157): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1225): Elementor\Frontend->get_builder_content('151', false)
+#16 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('151')
+#17 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#18 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): hfe_render_header('')
+#19 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#20 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#21 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(23): do_action('hfe_header')
+#22 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\Jean-m...')
+#23 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#24 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#25 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#26 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#27 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor\index.php(15): get_header()
+#28 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Jean-m...')
+#29 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Jean-m...')
+#30 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#31 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[10-Jul-2024 13:19:30 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajouter_lien_admin" not found or invalid function name in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-navigation-menu.php(2030): wp_nav_menu(Object(stdClass))
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): HFE\WidgetsManager\Widgets\Navigation_Menu->render()
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#8 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#9 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#10 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#11 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1867): Elementor\Element_Base->print_element()
+#12 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1792): Elementor\Core\Base\Document->do_print_elements(Array)
+#13 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1193): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1157): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1225): Elementor\Frontend->get_builder_content('151', false)
+#16 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('151')
+#17 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#18 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): hfe_render_header('')
+#19 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#20 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#21 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(23): do_action('hfe_header')
+#22 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\Jean-m...')
+#23 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#24 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#25 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#26 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#27 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor\index.php(15): get_header()
+#28 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Jean-m...')
+#29 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Jean-m...')
+#30 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#31 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[10-Jul-2024 13:20:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajouter_lien_admin" not found or invalid function name in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-navigation-menu.php(2030): wp_nav_menu(Object(stdClass))
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): HFE\WidgetsManager\Widgets\Navigation_Menu->render()
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#8 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#9 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#10 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#11 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1867): Elementor\Element_Base->print_element()
+#12 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1792): Elementor\Core\Base\Document->do_print_elements(Array)
+#13 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1193): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1157): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1225): Elementor\Frontend->get_builder_content('151', false)
+#16 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('151')
+#17 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#18 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): hfe_render_header('')
+#19 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#20 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#21 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(23): do_action('hfe_header')
+#22 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\Jean-m...')
+#23 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#24 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#25 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#26 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#27 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor\index.php(15): get_header()
+#28 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Jean-m...')
+#29 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Jean-m...')
+#30 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#31 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[10-Jul-2024 13:28:07 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[10-Jul-2024 14:36:00 UTC] PHP Parse error:  Unmatched '}' in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 74
+[10-Jul-2024 14:36:14 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajouter_lien_admin" not found or invalid function name in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-navigation-menu.php(2030): wp_nav_menu(Object(stdClass))
+#3 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): HFE\WidgetsManager\Widgets\Navigation_Menu->render()
+#4 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#5 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#6 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#7 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#8 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#9 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1422): Elementor\Element_Base->print_element()
+#10 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Element_Base->print_content()
+#11 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1867): Elementor\Element_Base->print_element()
+#12 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1792): Elementor\Core\Base\Document->do_print_elements(Array)
+#13 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1193): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1157): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1225): Elementor\Frontend->get_builder_content('151', false)
+#16 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('151')
+#17 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#18 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): hfe_render_header('')
+#19 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#20 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#21 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(23): do_action('hfe_header')
+#22 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\Jean-m...')
+#23 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#24 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#25 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#26 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#27 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor\index.php(15): get_header()
+#28 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Jean-m...')
+#29 C:\Users\Jean-michel\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Jean-m...')
+#30 C:\Users\Jean-michel\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\Jean-m...')
+#31 {main}
+  thrown in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[10-Jul-2024 15:13:58 UTC] PHP Parse error:  syntax error, unexpected identifier "href", expecting "," or ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 147
+[10-Jul-2024 15:14:08 UTC] PHP Parse error:  syntax error, unexpected identifier "href", expecting "," or ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 147
+[10-Jul-2024 15:14:08 UTC] PHP Parse error:  syntax error, unexpected identifier "href", expecting "," or ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 147
+[10-Jul-2024 15:19:53 UTC] PHP Parse error:  syntax error, unexpected identifier "http", expecting "," or ";" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 147
+[11-Jul-2024 12:24:03 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 196
+[11-Jul-2024 12:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[11-Jul-2024 12:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[11-Jul-2024 12:24:16 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "(" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 196
+[11-Jul-2024 12:26:04 UTC] PHP Parse error:  Unclosed '{' on line 196 in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 200
+[11-Jul-2024 12:26:16 UTC] PHP Parse error:  Unclosed '{' on line 196 in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 202
+[11-Jul-2024 12:26:50 UTC] PHP Parse error:  Unclosed '{' on line 196 in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 202
+[11-Jul-2024 12:26:56 UTC] PHP Parse error:  Unclosed '{' on line 196 in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 202
+[11-Jul-2024 12:26:57 UTC] PHP Parse error:  Unclosed '{' on line 196 in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 202
+[11-Jul-2024 12:26:58 UTC] PHP Parse error:  Unclosed '{' on line 196 in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 202
+[11-Jul-2024 12:26:59 UTC] PHP Parse error:  Unclosed '{' on line 196 in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 202
+[11-Jul-2024 12:28:04 UTC] PHP Parse error:  Unclosed '{' on line 196 in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 203
+[11-Jul-2024 12:28:16 UTC] PHP Parse error:  Unclosed '{' on line 196 in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 203

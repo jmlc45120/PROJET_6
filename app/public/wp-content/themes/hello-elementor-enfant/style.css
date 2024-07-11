@@ -10,9 +10,13 @@ Version: 3.1.0.1719823476
 Updated: 2024-07-01 08:44:36
 
 */
-.bouton-commander {
-    height : 80px !important;
+.custom-footer-images {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.bouton-commander:hover {
-        height: 60px !important;
-}
+
+.custom-footer-images img {
+    position: relative;
+    margin: 0 5px; /* Espace entre les images */}

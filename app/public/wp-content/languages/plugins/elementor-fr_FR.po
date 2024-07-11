@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-28 15:34:26+0000\n"
+"PO-Revision-Date: 2024-07-07 23:30:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,426 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release)\n"
+
+#: modules/element-cache/module.php:136
+msgid "1 Year"
+msgstr "1 an"
+
+#: modules/element-cache/module.php:135
+msgid "1 Month"
+msgstr "1 mois"
+
+#: modules/element-cache/module.php:134
+msgid "2 Weeks"
+msgstr "2 semaines"
+
+#: modules/element-cache/module.php:133
+msgid "1 Week"
+msgstr "1 semaine"
+
+#: modules/element-cache/module.php:132
+msgid "3 Days"
+msgstr "3 jours"
+
+#: modules/element-cache/module.php:131
+msgid "1 Day"
+msgstr "1 jour"
+
+#: modules/element-cache/module.php:130
+msgid "12 Hours"
+msgstr "12 heures"
+
+#: modules/element-cache/module.php:129
+msgid "6 Hours"
+msgstr "6 heures"
+
+#: modules/element-cache/module.php:128
+msgid "1 Hour"
+msgstr "1 heure"
+
+#: modules/element-cache/module.php:122
+msgid "Element Cache Expiration"
+msgstr "Expiration du cache d’éléments"
+
+#: modules/element-cache/module.php:101
+msgid "Cache Settings"
+msgstr "Réglages de cache"
+
+#: modules/element-cache/module.php:43
+msgid "Element Caching"
+msgstr "Mise en cache d’éléments"
+
+#: modules/conversion-center/widgets/contact-buttons.php:25
+msgid "Contact Buttons"
+msgstr "Boutons de contact"
+
+#: modules/conversion-center/traits/conversion-center-controls-trait.php:49
+#: modules/conversion-center/traits/conversion-center-controls-trait.php:73
+msgid "Icons Per Row"
+msgstr "Icônes par rangée"
+
+#: modules/conversion-center/module.php:233
+msgid "No Links Pages found in trash"
+msgstr "Aucune page de liens trouvée dans la corbeille"
+
+#: modules/conversion-center/module.php:232
+msgid "No Links Pages found"
+msgstr "Aucune page de liens trouvée"
+
+#: modules/conversion-center/module.php:231
+msgid "Search Links Pages"
+msgstr "Rechercher les pages de liens"
+
+#: modules/conversion-center/module.php:230
+msgid "View Links Page"
+msgstr "Voir la page des liens"
+
+#: modules/conversion-center/classes/render/contact-buttons-render-base.php:101
+msgid "Close Contact Buttons"
+msgstr "Fermer les boutons de contact"
+
+#: modules/conversion-center/classes/render/contact-buttons-render-base.php:56
+msgid "Open Contact Buttons"
+msgstr "Ouvrir les boutons de contact"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:231
+msgid "Skype"
+msgstr "Skype"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:225
+msgid "Viber"
+msgstr "Viber"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:219
+msgid "SMS"
+msgstr "SMS"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:213
+msgid "File Download"
+msgstr "Téléchargement de fichier"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:195
+msgid "Telephone"
+msgstr "Téléphone"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:189
+msgid "Messenger"
+msgstr "Messenger"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:183
+msgid "Waze"
+msgstr "Waze"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:171
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:165
+msgid "Behance"
+msgstr "Behance"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:153
+msgid "Spotify"
+msgstr "Spotify"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:147
+msgid "Apple Music"
+msgstr "Apple Music"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:141
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:135
+msgid "TikTok"
+msgstr "TikTok"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:123
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:117
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:111
+msgid "Instagram"
+msgstr "Instagram"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:105
+msgid "X (Twitter)"
+msgstr "X (Twitter)"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:99
+msgid "Facebook"
+msgstr "Facebook"
+
+#: modules/conversion-center/classes/providers/social-network-provider.php:93
+msgid "Save contact (vCard)"
+msgstr "Enregistrer le contact (vCard)"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:1631
+msgid "Bottom Border"
+msgstr "Bordure inférieure"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:1604
+msgid "Image Height"
+msgstr "Hauteur de l’image"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:1536
+msgid "Image Shape"
+msgstr "Forme de l’image"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:1147
+msgid "Dividers"
+msgstr "Séparateurs"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:1023
+msgid "CTA Links"
+msgstr "Lien d’appel à action"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:992
+msgid "Profile"
+msgstr "Profil"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:988
+msgid "Image style"
+msgstr "Style de l’image"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:947
+#: modules/conversion-center/base/widget-link-in-bio-base.php:1195
+msgid "Identity"
+msgstr "Identité"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:919
+msgid "About Me"
+msgstr "À propos de moi"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:918
+msgid "About"
+msgstr "À propos"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:897
+#: modules/conversion-center/base/widget-link-in-bio-base.php:1269
+msgid "Title or Tagline"
+msgstr "Titre ou slogan"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:888
+msgid "Sara Parker"
+msgstr "Sara Parker"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:874
+#: modules/conversion-center/base/widget-link-in-bio-base.php:1233
+msgid "Bio"
+msgstr "Biographie"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:806
+msgid "Apply Full Screen Height on"
+msgstr "Appliquer la hauteur plein écran sur"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:783
+msgid "Full Screen Height"
+msgstr "Hauteur plein écran"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:736
+msgid "Layout Width"
+msgstr "Largeur de la mise en page"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:673
+msgid "Add Icon"
+msgstr "Ajouter une icône"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:468
+msgid "Enter icon text"
+msgstr "Saisir le texte de l’icône"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:450
+msgid "Add up to <b>%d</b> icons"
+msgstr "Ajoutez jusqu’à <b>%d</b> icônes"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:438
+#: modules/conversion-center/base/widget-link-in-bio-base.php:1330
+msgid "Icons"
+msgstr "Icônes"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:412
+#: modules/conversion-center/base/widget-link-in-bio-base.php:656
+msgid "Enter your username"
+msgstr "Saisissez votre identifiant"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:394
+#: modules/conversion-center/base/widget-link-in-bio-base.php:635
+msgid "Enter your location"
+msgstr "Saisissez votre emplacement"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:376
+msgid "Enter your number"
+msgstr "Saisir votre numéro"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:321
+#: modules/conversion-center/base/widget-link-in-bio-base.php:558
+msgid "Enter your email"
+msgstr "Saisissez votre e-mail"
+
+#: modules/conversion-center/base/widget-link-in-bio-base.php:310
+#: modules/conversion-center/base/widget-link-in-bio-base.php:556
+msgid "Mail"
+msgstr "E-mail"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:672
+msgid "Close Button Color"
+msgstr "Couleur du bouton « Fermer »"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:663
+msgid "Close Button"
+msgstr "Bouton « Fermer »"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:330
+msgid "Type your text here"
+msgstr "Saisissez votre texte ici"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:329
+msgid "Click to start chat"
+msgstr "Cliquer pour démarrer le chat"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:319
+#: modules/conversion-center/base/widget-contact-button-base.php:883
+msgid "Send Button"
+msgstr "Bouton « Envoyer »"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:303
+msgid "Display Typing Animation"
+msgstr "Afficher l’animation de saisie"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:295
+msgid "14:20"
+msgstr "14:20"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:294
+msgid "2:20 PM"
+msgstr "2:20 PM"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:290
+msgid "Time format"
+msgstr "Format horaire"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:282
+msgid "Hey, how can I help you today?"
+msgstr "Comment pouvons-nous vous aider aujourd’hui ?"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:268
+msgid "Rob"
+msgstr "Robert"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:231
+#: modules/conversion-center/base/widget-contact-button-base.php:558
+msgid "Profile Image"
+msgstr "Image du profil"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:224
+msgid "Type your title here"
+msgstr "Saisissez votre titre ici"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:223
+msgid "Store Manager"
+msgstr "Gestionnaire de boutique"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:214
+#: modules/conversion-center/base/widget-contact-button-base.php:269
+msgid "Type your name here"
+msgstr "Saisissez votre nom ici"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:213
+msgid "Rob Jones"
+msgstr "Robert Dupont"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:171
+msgid "Action"
+msgstr "Action"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:139
+#: modules/conversion-center/base/widget-link-in-bio-base.php:613
+msgid "+"
+msgstr "+"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:122
+#: modules/conversion-center/base/widget-contact-button-base.php:276
+#: modules/conversion-center/base/widget-contact-button-base.php:283
+#: modules/conversion-center/base/widget-contact-button-base.php:765
+#: modules/conversion-center/base/widget-link-in-bio-base.php:346
+#: modules/conversion-center/base/widget-link-in-bio-base.php:357
+#: modules/conversion-center/base/widget-link-in-bio-base.php:592
+#: modules/conversion-center/base/widget-link-in-bio-base.php:594
+msgid "Message"
+msgstr "Message"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:107
+#: modules/conversion-center/base/widget-link-in-bio-base.php:328
+#: modules/conversion-center/base/widget-link-in-bio-base.php:339
+#: modules/conversion-center/base/widget-link-in-bio-base.php:577
+#: modules/conversion-center/base/widget-link-in-bio-base.php:579
+msgid "Subject"
+msgstr "Objet"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:97
+msgid "@"
+msgstr "@"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:91
+#: modules/conversion-center/classes/providers/social-network-provider.php:201
+msgid "Email"
+msgstr "E-mail"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:72
+#: modules/conversion-center/base/widget-link-in-bio-base.php:476
+msgid "Platform"
+msgstr "Plateforme"
+
+#: modules/conversion-center/base/widget-contact-button-base.php:64
+#: modules/conversion-center/base/widget-contact-button-base.php:341
+msgid "Chat Button"
+msgstr "Bouton de discussion"
+
+#: modules/conversion-center/admin-menu-items/links-menu-item.php:29
+#: modules/conversion-center/admin-menu-items/links-menu-item.php:33
+msgid "Links"
+msgstr "Liens"
+
+#: modules/apps/admin-apps-page.php:122
+msgid "Cannot Install"
+msgstr "Impossible d’installer"
+
+#: modules/apps/admin-apps-page.php:114 modules/apps/admin-apps-page.php:147
+msgid "Cannot Activate"
+msgstr "Impossible d’activer"
+
+#: includes/widgets/traits/button-trait.php:298
+msgid "Space between"
+msgstr "Espace entre"
+
+#: core/settings/editor-preferences/model.php:74
+msgid "Dark mode"
+msgstr "Mode sombre"
+
+#: core/settings/editor-preferences/model.php:70
+msgid "Light mode"
+msgstr "Mode clair"
+
+#: core/settings/editor-preferences/model.php:66
+msgid "Display mode"
+msgstr "Mode d’affichage"
+
+#: core/settings/editor-preferences/model.php:58
+msgid "Panel"
+msgstr "Panneau"
+
+#: core/experiments/manager.php:495
+msgid "New plugin onboarding."
+msgstr "Intégration d’une nouvelle extension."
+
+#: core/experiments/manager.php:494
+msgid "Plugin Onboarding"
+msgstr "Intégration d’extension"
 
 #: modules/promotions/admin-menu-items/go-pro-promotion-item.php:33
 msgid "Upgrade Sale Now"
@@ -6235,7 +6655,7 @@ msgstr "Séparateur"
 #: modules/conversion-center/base/widget-link-in-bio-base.php:364
 #: modules/conversion-center/base/widget-link-in-bio-base.php:607
 msgid "Number"
-msgstr "Nombre"
+msgstr "Numéro"
 
 #: includes/widgets/counter.php:217
 msgid "Cool Number"
