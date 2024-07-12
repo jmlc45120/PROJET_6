@@ -135,3 +135,6 @@ Updated: 2024-07-01 08:44:36
     font-size: 20px !important;
     line-height: 24px;
 }
+.wpforms-container-full textarea {
+    resize: none !important;
+}
