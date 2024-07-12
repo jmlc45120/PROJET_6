@@ -1,0 +1,38 @@
+# Ignorer les fichiers temporaires du système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de configuration locale
+conf/config.php
+conf/wp-config.php
+
+# Ignorer les fichiers de log
+logs/*.log
+
+# Ignorer les fichiers de cache
+app/cache/
+app/*.cache
+
+# Ignorer les fichiers de sauvegarde
+*.bak
+*.backup
+
+# Ignorer les fichiers de l'éditeur
+*.swp
+*.swo
+*.swn
+*.tmp
+
+
+# Ignorer les fichiers de l'outil de gestion de versions (SVN)
+.svn/
+
+# Ignorer les dossiers spécifiques aux serveurs ou hébergements
+app/uploads/
+app/backup/
+logs/
+
+# Ignorer les fichiers spécifiques aux environnements de développement locaux
+.env
+.idea/
+.vscode/

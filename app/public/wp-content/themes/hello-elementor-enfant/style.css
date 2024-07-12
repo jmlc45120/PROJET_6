@@ -10,13 +10,128 @@ Version: 3.1.0.1719823476
 Updated: 2024-07-01 08:44:36
 
 */
-.custom-footer-images {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* -------------------------------    HEADER     --------------------------------------------------- */
+
+/* STYLES DU FOOTER : */
+.bouton-nous-rencontrer:hover {
+    font-size: 13px;
+    font-weight: 700;
+}
+.bouton-commander {
+    background-color : #E0B9B4;
+    line-height: 4.5em;
+    height : 80px;
+    width : 236px;
+}
+.bouton-commander:hover {
+    background-color : #C02E44;
 }
 
-.custom-footer-images img {
+/* STYLES SUR AFFICHAGE LIEN " admin " : */
+.hfe-menu-item {
+    box-sizing: border-box;
+    padding: 0px 30px 0px 30px !important;
+    color: black;
+    justify-content: center;
+}
+.hfe-menu-item:hover {
+    box-sizing: border-box;
+    padding: 0px 30px 0px 21px !important;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* -------------------------------    FOOTER     ---------------------------------------------------- */
+
+/* STYLES SUR BANDEAU DE 16 CANETTES : */
+.ajust-compo-footer {
+    display: flex;
+    justify-content: left;  
+    width: 1440px;
+    height: auto;
     position: relative;
-    margin: 0 5px; /* Espace entre les images */}
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.image-footer {
+    position: relative;
+    margin-left: -40px;
+    margin-right: -40px;
+    height: 140px;
+}
+
+/* STYLES SUR LIEN DES MENTIONS LEGALES : */
+.mentions-legales-footer {
+    display: flex;
+    padding: 20px 0px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+}
+
+.mentions-legales-footer:hover {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* STYLES POUR AJUSTEMENT HAUTEUR FOOTEUR "FANTOME" : */
+#colophon {
+    height :35px;
+}
+
+/*-------------------------------------- PAGE " ACCUEIL " --------------------------------------------- */
+
+/* AJUSTEMENT DE L'EMPLACEMENT DES FEUILLES A GAUCHE ET A DROITE DE LA CANETTE (LOGO) : */
+#feuille-gauche {
+    margin-right: -125%;
+}
+
+#feuille-droite {
+    margin-left: -125%;
+}
+
+/*----------------------------------- PAGE " NOUS RENCONTRER " --------------------------------------- */
+
+/* STYLES DU FORMULAIRE : */
+.wpforms-submit-container {
+    display: flex;
+    justify-content: center;
+}
+#wpforms-937-field_1 {
+    border-style: none;
+    border-radius:7px ;
+    height : 71px;
+}
+
+#wpforms-937-field_2 {
+    border-style: none;
+    border-radius:7px !important;
+    height : 237px;
+}
+
+#wpforms-937-field_3{
+    border-style: none;
+    border-radius:7px !important;
+    height : 71px;
+}
+
+#wpforms-submit-937 {
+    height: 55px;
+    width: 198px;
+    border-radius: 5px;
+    color: white;
+    background-color: #E0B9B4 !important;
+}
+
+#wpforms-submit-937:hover {
+    color: white;
+    background-color: #C02E44 !important;
+}
+
+.wpforms-field-label {
+    font-family: 'Syne', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 24px;
+}
