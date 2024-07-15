@@ -29,28 +29,18 @@ class Ai extends Library {
 		return static::API_URL . '/';
 	}
 
-	public function get_usage() {
+	public function get_usage( $client_name, $client_session_id ) {
 		return $this->ai_request(
 			'POST',
 			'status/check',
 			[
 				'api_version' => ELEMENTOR_VERSION,
 				'site_lang' => get_bloginfo( 'language' ),
+				'client_name' => esc_attr( $client_name ),
+				'client_version' => ELEMENTOR_VERSION,
+				'client_session_id' => esc_attr( $client_session_id ),
 			]
 		);
-	}
-
-	public function get_cached_usage() {
-		$cache_key = 'elementor_ai_usage';
-		$cache_time = 24 * HOUR_IN_SECONDS;
-		$usage = get_site_transient( $cache_key );
-
-		if ( ! $usage ) {
-			$usage = $this->get_usage();
-			set_site_transient( $cache_key, $usage, $cache_time );
-		}
-
-		return $usage;
 	}
 
 	public function get_remote_config() {
@@ -305,6 +295,32 @@ class Ai extends Library {
 		return $this->ai_request(
 			'POST',
 			'image/text-to-image',
+			[
+				self::PROMPT => $data['payload']['prompt'],
+				self::IMAGE_TYPE => $data['payload']['settings'][ self::IMAGE_TYPE ] . '/' . $data['payload']['settings'][ self::STYLE_PRESET ],
+				self::ASPECT_RATIO => $data['payload']['settings'][ self::ASPECT_RATIO ],
+				'context' => wp_json_encode( $context ),
+				'ids' => $request_ids,
+				'api_version' => ELEMENTOR_VERSION,
+				'site_lang' => get_bloginfo( 'language' ),
+			],
+			false,
+			'',
+			'json'
+		);
+	}
+
+	/**
+	 * get_featured_image
+	 * @param $prompt
+	 * @param $prompt_settings
+	 *
+	 * @return mixed|\WP_Error
+	 */
+	public function get_featured_image( $data, $context, $request_ids ) {
+		return $this->ai_request(
+			'POST',
+			'image/text-to-image/featured-image',
 			[
 				self::PROMPT => $data['payload']['prompt'],
 				self::IMAGE_TYPE => $data['payload']['settings'][ self::IMAGE_TYPE ] . '/' . $data['payload']['settings'][ self::STYLE_PRESET ],

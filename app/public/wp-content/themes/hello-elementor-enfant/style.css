@@ -155,3 +155,86 @@ Updated: 2024-07-01 08:44:36
     margin-right: 26%;
     margin-top: -225px;
 }
+/*----------------------------------- PAGE " COMMANDER " --------------------------------------- */
+
+.form_commande {
+    display:flex;
+    flex-direction: column;
+}
+
+.nombre_boissons {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width:867px;
+}
+
+.separation-horizontale {
+    width: 100%;
+    height: 1px;
+    background-color: white; /* Couleur de la ligne horizontale */
+    margin: 20px 0; /* Espace au-dessus et en-dessous de la ligne */
+}
+
+.champs_form {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin: 40px 0px 0px 0px;
+}
+
+.colonne1,.colonne2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0px 30px !important;
+}
+
+.separation-verticale {
+    width: 1px;
+    background-color: white; /* Couleur de la ligne verticale */
+    margin: 0 0px; /* Espace à gauche et à droite de la ligne */
+}
+
+.wpcf7 form {
+    display: flex;
+    color: white;
+    font-size: 20px!important;
+    font-weight: 400!important;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.field{
+    border-radius:7px !important;
+    width:383px;
+    height:71px;
+}
+
+.boissons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.boisson-field {
+width: 70px;
+}
+
+.colonne1, .colonne2 {
+display: flex;
+flex-direction: column;
+flex: 1;
+min-width: 200px; /* Ajuster selon tes besoins */
+margin-right: 20px;
+}
+
+.field {
+width: 100%;
+margin-bottom: 10px;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
