@@ -105,6 +105,11 @@ Updated: 2024-07-01 08:44:36
     display: flex;
     justify-content: center;
 }
+
+.wpforms-field-label {
+    font-size:20px !important;
+    font-weight: 400 !important;
+}
 #wpforms-937-field_1 {
     border-style: none;
     border-radius:7px ;
@@ -136,12 +141,17 @@ Updated: 2024-07-01 08:44:36
     background-color: #C02E44 !important;
 }
 
-.wpforms-field-label {
+.wpforms-submit {
     font-family: 'Syne', sans-serif !important;
     font-weight: 400 !important;
-    font-size: 20px !important;
+    font-size: 15px !important;
     line-height: 24px;
 }
 .wpforms-container-full textarea {
     resize: none !important;
+}
+/* AJUSTEMENT DE L'EMPLACEMENT DE LA FLEUR-DECO DU FORMULAIRE : */
+#deco-form {
+    margin-right: 26%;
+    margin-top: -225px;
 }
