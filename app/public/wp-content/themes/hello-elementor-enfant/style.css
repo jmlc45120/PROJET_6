@@ -92,10 +92,10 @@ Updated: 2024-07-01 08:44:36
 }
 
 /*----------------------------------- PAGE " NOUS RENCONTRER " --------------------------------------- */
+/* AJUSTEMENT DE L'EMPLACEMENT DE LA FLEUR A GAUCHE DU TITRE : */
 
 /* AJUSTEMENT DE L'EMPLACEMENT DE LA FEUILLE A DROITE DU TROMBINOSCOPE : */
 #feuille-lequipe {
-
     margin-left: 83%;
     margin-top: -15%;
 }
