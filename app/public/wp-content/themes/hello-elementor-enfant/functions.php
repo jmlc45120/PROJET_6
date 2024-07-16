@@ -27,30 +27,32 @@ add_action('wp_enqueue_scripts', 'child_theme_configurator_css', 10);
 // -------------------------------    HEADER     ---------------------------------------------------
 
 // GESTION AFFICHAGE LIEN " admin " SI UTILISATEUR CONNECTE :
-function add_admin_link_to_menu($items, $args)
+function ajout_lien_admin_au_header($items, $args)
 {
     if (is_user_logged_in() && $args->menu == 'test') {
         $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a class="hfe-menu-item" href="' . get_admin_url() . '">Admin</a></li>';
     }
     return $items;
 }
-add_filter('wp_nav_menu_items', 'add_admin_link_to_menu', 10, 2);
+add_filter('wp_nav_menu_items', 'ajout_lien_admin_au_header', 10, 2);
 
 // -------------------------------    FOOTER     ----------------------------------------------------
 
 // CREATION BANDEAU DE 16 CANETTES :
-function disposition_images_footer()
-{
-    $image_url = "http://planty.local/wp-content/uploads/2024/07/Planty6-1.png";
-    $decalage_vertical = [0, -20, 0, 20, 0, -20, 20, 0, -20, 0, 20, 0, -20, 0, 20, 0]; // offsets verticaux pour effet de vague
-    echo '<div class="ajust-compo-footer">';
-    foreach ($decalage_vertical as $index => $decalage) {
-        echo '<div class="image-footer" style="top: ' . $decalage . 'px;">'; // positionnement des 16 images avec offsets verticaux
-        echo '<img src="' . $image_url . '" alt="Planty Image">';
+function disposition_images_footer() {
+    // Vérifiez si vous n'êtes pas sur la page avec l'ID 46
+    if (!is_page(46)) {
+        $image_url = "http://planty.local/wp-content/uploads/2024/07/Planty6-1.png";
+        $decalage_vertical = [0, -20, 0, 20, 0, -20, 20, 0, -20, 0, 20, 0, -20, 0, 20, 0]; // offsets verticaux pour effet de vague
+        echo '<div class="ajust-compo-footer">';
+        foreach ($decalage_vertical as $index => $decalage) {
+            echo '<div class="image-footer" style="top: ' . $decalage . 'px;">'; // positionnement des 16 images avec offsets verticaux
+            echo '<img src="' . $image_url . '" alt="Planty Image">';
+            echo '</div>';
+        }
         echo '</div>';
     }
-    echo '</div>';
-    echo '<a class="mentions-legales-footer" href="http://planty.local/mentions-legales/">Mentions légales</a>'; // Ajout du lien "Mentions légales" sous le bandeau de canettes
+    echo '<a class="mentions-legales-footer" href="http://planty.local/mentions-legales/" style="position: relative; z-index: 1;">Mentions légales</a>';
 }
 
 add_action('wp_footer', 'disposition_images_footer');
@@ -65,12 +67,12 @@ add_action('wp_footer', 'disposition_images_footer');
 
 // CHARGEMENT POLICES DE CARACTERES "SYNE" :
 
-function enqueue_syne_font()
+function charger_police_syne()
 {
     wp_enqueue_style('syne-font', 'https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap', array(), null);
 }
 
-add_action('wp_enqueue_scripts', 'enqueue_syne_font');
+add_action('wp_enqueue_scripts', 'charger_police_syne');
 
 
 

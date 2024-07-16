@@ -57,9 +57,8 @@ Updated: 2024-07-01 08:44:36
 
 .image-footer {
     position: relative;
-    margin-left: -40px;
-    margin-right: -40px;
-    height: 140px;
+    margin:70px -20px 0px -80px;
+    height: 170px;
 }
 
 /* STYLES SUR LIEN DES MENTIONS LEGALES : */
@@ -79,6 +78,21 @@ Updated: 2024-07-01 08:44:36
 /* STYLES POUR AJUSTEMENT HAUTEUR FOOTEUR "FANTOME" : */
 #colophon {
     height :35px;
+}
+
+.e-con-inner {
+    position: relative;
+    z-index: 1;
+}
+
+.ajust-compo-footer {
+    position: relative;
+    z-index: 1;
+}
+
+.mentions-legales-footer {
+    position: relative;
+    z-index: 1000; /* Assurez que ce z-index est plus élevé que celui de .e-con-inner et .ajust-compo-footer */
 }
 
 /*-------------------------------------- PAGE " ACCUEIL " --------------------------------------------- */
@@ -113,6 +127,9 @@ Updated: 2024-07-01 08:44:36
 }
 .wpforms-required-label[aria-hidden="true"] {
     display: none;
+}
+#wpforms-937 {
+    padding-bottom:80px;
 }
 
 #wpforms-937-field_1 {
@@ -158,7 +175,7 @@ Updated: 2024-07-01 08:44:36
 /* AJUSTEMENT DE L'EMPLACEMENT DE LA FLEUR-DECO DU FORMULAIRE : */
 #deco-form {
     margin-right: 26%;
-    margin-top: -225px;
+    margin-top: -21%;
 }
 /*----------------------------------- PAGE " COMMANDER " --------------------------------------- */
 
@@ -239,6 +256,7 @@ Updated: 2024-07-01 08:44:36
     flex-wrap: wrap;
     flex-direction: column;
 }
+
 .champ-form{
     margin:10px 5px 0px 0px !important;
     padding: 0px !important;
@@ -258,7 +276,7 @@ Updated: 2024-07-01 08:44:36
     display: flex;
     justify-content: center;
 }
-.bouton_commander {
+#bouton_commander {
     width: 198px!important;
     height: 55px!important;
     border:none;
@@ -266,6 +284,6 @@ Updated: 2024-07-01 08:44:36
     background-color: #E0B9B4;
     margin:30px 0px 50px 0px;
 }
-.bouton_commander:hover {
+#bouton_commander:hover {
     background-color: #C02E44;
 }
