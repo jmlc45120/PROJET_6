@@ -35,4 +35,4 @@ logs/
 # Ignorer les fichiers spécifiques aux environnements de développement locaux
 .env
 .idea/
-.vscode/
+.vscode/app/public/wp-content/ai1wm-backups/
