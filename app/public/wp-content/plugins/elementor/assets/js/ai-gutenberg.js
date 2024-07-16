@@ -2654,7 +2654,6 @@ var request = function request(endpoint) {
   if (Object.keys(data).length) {
     data.context = window.elementorAiCurrentContext;
   }
-  data.editor_session_id = window.EDITOR_SESSION_ID;
   return new Promise(function (resolve, reject) {
     var ajaxData = elementorCommon.ajax.addRequest(endpoint, {
       success: resolve,
@@ -5845,7 +5844,6 @@ exports.useRequestIds = exports.getUniqueId = void 0;
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "../node_modules/@babel/runtime/helpers/slicedToArray.js"));
 var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js"));
-var _window$ElementorAiCo;
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 var Context = (0, _react.createContext)({});
@@ -5861,7 +5859,7 @@ var getUniqueId = function getUniqueId(prefix) {
   return prefix + '-' + Math.random().toString(16).substr(2, 7);
 };
 exports.getUniqueId = getUniqueId;
-window.EDITOR_SESSION_ID = window.EDITOR_SESSION_ID || ((_window$ElementorAiCo = window.ElementorAiConfig) === null || _window$ElementorAiCo === void 0 ? void 0 : _window$ElementorAiCo.client_session_id) || getUniqueId('editor-session');
+window.EDITOR_SESSION_ID = window.EDITOR_SESSION_ID || getUniqueId('editor-session');
 function generateIds(template) {
   var _template$elements;
   template.id = getUniqueId().toString();

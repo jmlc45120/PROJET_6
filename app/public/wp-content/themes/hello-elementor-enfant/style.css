@@ -160,39 +160,68 @@ Updated: 2024-07-01 08:44:36
 .form_commande {
     display:flex;
     flex-direction: column;
-}
-
-.nombre_boissons {
-    display:flex;
-    justify-content: space-around;
-    margin-top: 20px;
     width:867px;
 }
 
+.quantites_boissons {
+    display:flex;
+    justify-content: space-between;
+    padding : 20px 75px 0px 75px!important;
+    width:867px;
+}
+.quantite_fraise ,.quantite_pamplemousse , .quantite_framboise , .quantite_citron {
+    display: flex;
+    justify-content: center;
+}
+
+.champ-saisie-qte {
+    width: 38px !important;
+    height:55px;
+    border:none!important;
+    border-radius:0px!important;
+    padding: 0px 0px 0px 3px !important;
+    }
+
 .separation-horizontale {
-    width: 100%;
+    width: 867px;
     height: 1px;
     background-color: white;
     margin: 20px 0; /
 }
 
-.champs_form {
+.saisie-coordonnees {
     display:flex;
     flex-direction:row;
-    justify-content: space-around;
-    margin: 40px 0px 0px 0px;
+    justify-content: space-between;
+    margin: 40px 0px 30px 0px;
+}
+
+.saisie-coordonnees p {
+    margin: 0px;
 }
 
 .colonne1,.colonne2 {
     display:flex;
     flex-direction: column;
-    align-items: center;
-    margin:0px 0px !important;
-    padding: 0px;
+    justify-items: space-between;
+    align-content: left;
+    margin:0px 0px 0px 0px !important;
+    padding: 0px !important;
+}
+
+.colonne1 h2 {
+    margin : 0px;
+}
+.colonne2 h2 {
+    margin : 0px;
+}
+.colonne1 p,.colonne2 p{
+    margin-top: 23px;
 }
 
 .separation-verticale {
     width: 1px;
+    height:447px;
     background-color: white;
     margin: 0px 0px;
 }
@@ -205,11 +234,13 @@ Updated: 2024-07-01 08:44:36
     flex-wrap: wrap;
     flex-direction: column;
 }
-.field{
+.champ-form{
+    margin:10px 0px 0px 0px !important;
+    padding: 0px !important;
     border-radius:7px !important;
-    border:none !important;
     width:383px !important;
     height:71px !important;
+    border:none!important;
 }
 
 .boissons {
@@ -218,10 +249,6 @@ Updated: 2024-07-01 08:44:36
     margin-bottom: 20px;
 }
 
-.boisson-field {
-width: 40px !important;
-padding: 0px 0px 0px 3px !important;
-}
 .valid_commande {
     display: flex;
     justify-content: center;
@@ -232,6 +259,7 @@ padding: 0px 0px 0px 3px !important;
     border:none;
     border-radius: 5px!important;
     background-color: #E0B9B4;
+    margin-bottom: 80px;
 }
 #bouton_commander:hover {
     background-color: #C02E44;
