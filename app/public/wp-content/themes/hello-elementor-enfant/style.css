@@ -101,7 +101,7 @@ Updated: 2024-07-01 08:44:36
     margin-top: -15%;
 }
 
-/* STYLES DU FORMULAIRE : */
+/* --------- STYLES DU FORMULAIRE : ----------*/
 .wpforms-submit-container {
     display: flex;
     justify-content: center;
@@ -111,6 +111,10 @@ Updated: 2024-07-01 08:44:36
     font-size:20px !important;
     font-weight: 400 !important;
 }
+.wpforms-required-label[aria-hidden="true"] {
+    display: none;
+}
+
 #wpforms-937-field_1 {
     border-style: none;
     border-radius:7px ;
