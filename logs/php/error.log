@@ -771,3 +771,7 @@ Stack trace:
 [11-Jul-2024 12:26:59 UTC] PHP Parse error:  Unclosed '{' on line 196 in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 202
 [11-Jul-2024 12:28:04 UTC] PHP Parse error:  Unclosed '{' on line 196 in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 203
 [11-Jul-2024 12:28:16 UTC] PHP Parse error:  Unclosed '{' on line 196 in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 203
+[16-Jul-2024 12:03:13 UTC] PHP Parse error:  syntax error, unexpected token "-", expecting "(" in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-content\themes\hello-elementor-enfant\functions.php on line 61
+[16-Jul-2024 12:03:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[16-Jul-2024 12:03:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[16-Jul-2024 15:03:26 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Jean-michel\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905

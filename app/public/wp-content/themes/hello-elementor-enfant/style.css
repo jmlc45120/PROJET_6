@@ -46,11 +46,12 @@ Updated: 2024-07-01 08:44:36
 /* STYLES SUR BANDEAU DE 16 CANETTES : */
 .ajust-compo-footer {
     display: flex;
-    justify-content: left;  
-    width: 1440px;
+    justify-content:flex-start;
+    background-color:none;
+    width: auto;
     height: auto;
     position: relative;
-    margin: 0 auto;
+    margin: 0px auto;
     overflow: hidden;
 }
 
@@ -235,7 +236,7 @@ Updated: 2024-07-01 08:44:36
     flex-direction: column;
 }
 .champ-form{
-    margin:10px 0px 0px 0px !important;
+    margin:10px 5px 0px 0px !important;
     padding: 0px !important;
     border-radius:7px !important;
     width:383px !important;
@@ -253,14 +254,14 @@ Updated: 2024-07-01 08:44:36
     display: flex;
     justify-content: center;
 }
-#bouton_commander {
+.bouton_commander {
     width: 198px!important;
     height: 55px!important;
     border:none;
     border-radius: 5px!important;
     background-color: #E0B9B4;
-    margin-bottom: 80px;
+    margin:30px 0px 50px 0px;
 }
-#bouton_commander:hover {
+.bouton_commander:hover {
     background-color: #C02E44;
 }
