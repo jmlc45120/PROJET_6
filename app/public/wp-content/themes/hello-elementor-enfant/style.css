@@ -12,7 +12,7 @@ Updated: 2024-07-01 08:44:36
 */
 /* -------------------------------    HEADER     --------------------------------------------------- */
 
-/* STYLES DU FOOTER : */
+/* STYLES DU HEADER : */
 .bouton-nous-rencontrer:hover {
     font-size: 13px;
     font-weight: 700;
@@ -20,7 +20,7 @@ Updated: 2024-07-01 08:44:36
 .bouton-commander {
     background-color : #E0B9B4;
     line-height: 4.5em;
-    height : 80px;
+    height : 80px!important;
     width : 236px;
 }
 .bouton-commander:hover {
@@ -43,7 +43,7 @@ Updated: 2024-07-01 08:44:36
 
 /* -------------------------------    FOOTER     ---------------------------------------------------- */
 
-/* STYLES SUR BANDEAU DE 16 CANETTES : */
+/* STYLES SUR BANDEAU DE 16 CANETTES (voir fonction dans functions.php : */
 .ajust-compo-footer {
     display: flex;
     width: auto;
@@ -64,7 +64,11 @@ Updated: 2024-07-01 08:44:36
 /* STYLES SUR LIEN DES MENTIONS LEGALES : */
 .mentions-legales-footer {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     width:auto;
+    height:80px;
     padding: 20px 0px;
     background-color: white;
     color: black;
@@ -76,38 +80,8 @@ Updated: 2024-07-01 08:44:36
     font-weight: 700;
 }
 
-/* STYLES POUR AJUSTEMENT HAUTEUR FOOTEUR "FANTOME" : */
-#colophon {
-    height :0px;
-}
-
-.e-con-inner {
-    position: relative;
-    z-index: 1;
-}
-
-.ajust-compo-footer {
-    position: relative;
-    z-index: 1;
-}
-
-.mentions-legales-footer {
-    position: relative;
-    z-index: 1000;
-}
-
-/*-------------------------------------- PAGE " ACCUEIL " --------------------------------------------- */
-
-/* AJUSTEMENT DE L'EMPLACEMENT DES FEUILLES A GAUCHE ET A DROITE DE LA CANETTE (LOGO) : 
-#feuille-gauche {
-    margin-right: -100%;
-}
-
-#feuille-droite {
-    margin-left: -130%;
-}*/
-
 /*----------------------------------- PAGE " NOUS RENCONTRER " --------------------------------------- */
+
 /* AJUSTEMENT DE L'EMPLACEMENT DE LA FLEUR A GAUCHE DU TITRE : */
 
 /* AJUSTEMENT DE L'EMPLACEMENT DE LA FEUILLE A DROITE DU TROMBINOSCOPE : */
@@ -170,15 +144,18 @@ Updated: 2024-07-01 08:44:36
     font-size: 15px !important;
     line-height: 24px;
 }
+
 .wpforms-container-full textarea {
     resize: none !important;
 }
+
 /* AJUSTEMENT DE L'EMPLACEMENT DE LA FLEUR-DECO DU FORMULAIRE : */
 #deco-form {
     margin-right: 26%;
     margin-top: -15%;
 }
-/*----------------------------------- PAGE " COMMANDER " --------------------------------------- */
+
+/*--------------------------------------- PAGE " COMMANDER " ------------------------------------------- */
 
 #container_commander{
     display:flex;
