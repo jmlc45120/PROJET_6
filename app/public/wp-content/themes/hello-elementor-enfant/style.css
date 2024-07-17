@@ -46,10 +46,10 @@ Updated: 2024-07-01 08:44:36
 /* STYLES SUR BANDEAU DE 16 CANETTES : */
 .ajust-compo-footer {
     display: flex;
-    justify-content:flex-start;
-    background-color:none;
     width: auto;
+    max-width: 1440px;
     height: auto;
+    max-height: 205px;
     position: relative;
     margin: 0px auto;
     overflow: hidden;
@@ -57,13 +57,14 @@ Updated: 2024-07-01 08:44:36
 
 .image-footer {
     position: relative;
-    margin:70px -20px 0px -80px;
-    height: 170px;
+    margin:70px -20px 0px -60px;
+    height: auto;
 }
 
 /* STYLES SUR LIEN DES MENTIONS LEGALES : */
 .mentions-legales-footer {
     display: flex;
+    width:auto;
     padding: 20px 0px;
     background-color: white;
     color: black;
@@ -71,13 +72,13 @@ Updated: 2024-07-01 08:44:36
 }
 
 .mentions-legales-footer:hover {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 }
 
 /* STYLES POUR AJUSTEMENT HAUTEUR FOOTEUR "FANTOME" : */
 #colophon {
-    height :35px;
+    height :0px;
 }
 
 .e-con-inner {
@@ -92,19 +93,19 @@ Updated: 2024-07-01 08:44:36
 
 .mentions-legales-footer {
     position: relative;
-    z-index: 1000; /* Assurez que ce z-index est plus élevé que celui de .e-con-inner et .ajust-compo-footer */
+    z-index: 1000;
 }
 
 /*-------------------------------------- PAGE " ACCUEIL " --------------------------------------------- */
 
-/* AJUSTEMENT DE L'EMPLACEMENT DES FEUILLES A GAUCHE ET A DROITE DE LA CANETTE (LOGO) : */
+/* AJUSTEMENT DE L'EMPLACEMENT DES FEUILLES A GAUCHE ET A DROITE DE LA CANETTE (LOGO) : 
 #feuille-gauche {
-    margin-right: -125%;
+    margin-right: -100%;
 }
 
 #feuille-droite {
     margin-left: -130%;
-}
+}*/
 
 /*----------------------------------- PAGE " NOUS RENCONTRER " --------------------------------------- */
 /* AJUSTEMENT DE L'EMPLACEMENT DE LA FLEUR A GAUCHE DU TITRE : */
@@ -175,21 +176,28 @@ Updated: 2024-07-01 08:44:36
 /* AJUSTEMENT DE L'EMPLACEMENT DE LA FLEUR-DECO DU FORMULAIRE : */
 #deco-form {
     margin-right: 26%;
-    margin-top: -21%;
+    margin-top: -15%;
 }
 /*----------------------------------- PAGE " COMMANDER " --------------------------------------- */
+
+#container_commander{
+    display:flex;
+    justify-content: center;
+    width:auto;
+    max-width: 1440px;
+}
 
 .form_commande {
     display:flex;
     flex-direction: column;
-    width:867px;
+    width:860px;
 }
 
 .quantites_boissons {
     display:flex;
     justify-content: space-between;
-    padding : 20px 75px 0px 75px!important;
-    width:867px;
+    padding : 20px 9% 0px 9%!important;
+    width:860px;
 }
 .quantite_fraise ,.quantite_pamplemousse , .quantite_framboise , .quantite_citron {
     display: flex;
@@ -205,7 +213,7 @@ Updated: 2024-07-01 08:44:36
     }
 
 .separation-horizontale {
-    width: 867px;
+    width: 860px;
     height: 1px;
     background-color: white;
     margin: 20px 0; /

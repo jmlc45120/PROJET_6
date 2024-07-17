@@ -39,20 +39,32 @@ add_filter('wp_nav_menu_items', 'ajout_lien_admin_au_header', 10, 2);
 // -------------------------------    FOOTER     ----------------------------------------------------
 
 // CREATION BANDEAU DE 16 CANETTES :
-function disposition_images_footer() {
-    // Vérifiez si vous n'êtes pas sur la page avec l'ID 46
+function disposition_images_footer()
+{
+    $image_url = "http://planty.local/wp-content/uploads/2024/07/Planty6-1.png";
+    $decalage_vertical = [0, -20, 0, 20, 0, -20, 20, 0, -20, 0, 20, 0, -20, 0, 20, 0]; // offsets verticaux pour effet de vague
+
     if (!is_page(46)) {
-        $image_url = "http://planty.local/wp-content/uploads/2024/07/Planty6-1.png";
-        $decalage_vertical = [0, -20, 0, 20, 0, -20, 20, 0, -20, 0, 20, 0, -20, 0, 20, 0]; // offsets verticaux pour effet de vague
-        echo '<div class="ajust-compo-footer">';
-        foreach ($decalage_vertical as $index => $decalage) {
-            echo '<div class="image-footer" style="top: ' . $decalage . 'px;">'; // positionnement des 16 images avec offsets verticaux
-            echo '<img src="' . $image_url . '" alt="Planty Image">';
+        if (is_page(41)) {
+            echo '<div class="ajust-compo-footer" style="background-color: #ECE2DA;">';
+            foreach ($decalage_vertical as $index => $decalage) {
+                echo '<div class="image-footer" style="top: ' . $decalage . 'px;">'; // positionnement des 16 images avec offsets verticaux
+                echo '<img src="' . $image_url . '" alt="Planty Image">';
+                echo '</div>';
+            }
+            echo '</div>';
+        } else {
+            echo '<div class="ajust-compo-footer">';
+            foreach ($decalage_vertical as $index => $decalage) {
+                echo '<div class="image-footer" style="top: ' . $decalage . 'px;">'; // positionnement des 16 images avec offsets verticaux
+                echo '<img src="' . $image_url . '" alt="Planty Image">';
+                echo '</div>';
+            }
             echo '</div>';
         }
-        echo '</div>';
     }
-    echo '<a class="mentions-legales-footer" href="http://planty.local/mentions-legales/" style="position: relative; z-index: 1;">Mentions légales</a>';
+    // Affichage des mentions légales
+    echo '<a class="mentions-legales-footer" href="http://planty.local/mentions-legales/" style="position: relative; z-index: 1; background-color: #FFFFFF;">Mentions légales</a>';
 }
 
 add_action('wp_footer', 'disposition_images_footer');
