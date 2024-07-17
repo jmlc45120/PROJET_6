@@ -47,8 +47,8 @@ function disposition_images_footer()
     $image_url = "http://planty.local/wp-content/uploads/2024/07/Planty6-1.png";
     $decalage_vertical = [0, -20, 0, 20, 0, -20, 20, 0, -20, 0, 20, 0, -20, 0, 20, 0]; // offsets verticaux pour effet de vague
 
-    if (!is_page(46)) {
-        if (is_page(41)) {
+    if (!is_page(46)) { // PAGE ID 46 = page COMMANDER
+        if (is_page(41)) { // PAGE ID 41 = page NOUS RENCONTRER
             echo '<div class="ajust-compo-footer" style="background-color: #ECE2DA;">';
             foreach ($decalage_vertical as $index => $decalage) {
                 echo '<div class="image-footer" style="top: ' . $decalage . 'px;">'; // positionnement des 16 images avec offsets verticaux
