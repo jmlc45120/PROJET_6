@@ -15,16 +15,14 @@ Updated: 2024-07-01 08:44:36
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 
 /* STYLES DU HEADER : */
-.bouton-nous-rencontrer:hover {
-    font-size: 13px;
-    font-weight: 700;
-}
+
 .bouton-commander {
     background-color : #E0B9B4;
     line-height: 4.5em;
     height : 80px!important;
     width : 236px;
 }
+
 .bouton-commander:hover {
     background-color : #C02E44;
 }
@@ -36,12 +34,15 @@ Updated: 2024-07-01 08:44:36
     color: black;
     justify-content: center;
 }
+
 .hfe-menu-item:hover {
     box-sizing: border-box;
     padding: 0px 30px 0px 21px !important;
     font-size: 16px;
     font-weight: 700;
 }
+
+
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 /* -----------------------------------------------------------    FOOTER     ---------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -82,18 +83,13 @@ Updated: 2024-07-01 08:44:36
     font-size: 16px;
     font-weight: 700;
 }
+
+
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 /* --------------------------------------------------    PAGE " NOUS RENCONTRER "     ------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 
-
 /* AJUSTEMENT DE L'EMPLACEMENT DE LA FLEUR A GAUCHE DU TITRE : */
-
-/* AJUSTEMENT DE L'EMPLACEMENT DE LA FEUILLE A DROITE DU TROMBINOSCOPE : */
-#feuille-lequipe {
-    margin-left: 83%;
-    margin-top: -15%;
-}
 
 /* --------- STYLES DU FORMULAIRE : ----------*/
 .wpforms-submit-container {
@@ -105,32 +101,34 @@ Updated: 2024-07-01 08:44:36
     font-size:20px !important;
     font-weight: 400 !important;
 }
+
 .wpforms-required-label[aria-hidden="true"] {
     display: none;
 }
+
 #wpforms-937 {
     padding-bottom:80px;
 }
 
-#wpforms-937-field_1 {
+#wpforms-937-field_1 {   /* ---- champ E-mail -----*/
     border-style: none;
     border-radius:7px ;
     height : 71px;
 }
 
-#wpforms-937-field_2 {
+#wpforms-937-field_2 {   /* ---- champ Message -----*/
     border-style: none;
     border-radius:7px !important;
     height : 237px;
 }
 
-#wpforms-937-field_3{
+#wpforms-937-field_3{    /* ---- champ Nom -----*/
     border-style: none;
     border-radius:7px !important;
     height : 71px;
 }
 
-#wpforms-submit-937 {
+#wpforms-submit-937 {    /* ---- Bouton ENVOYER -----*/
     height: 55px;
     width: 198px;
     border-radius: 5px;
@@ -159,6 +157,8 @@ Updated: 2024-07-01 08:44:36
     margin-right: 26%;
     margin-top: -15%;
 }
+
+
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------    PAGE " COMMANDER "    ---------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -182,6 +182,7 @@ Updated: 2024-07-01 08:44:36
     padding : 20px 9% 0px 9%!important;
     width:860px;
 }
+
 .quantite_fraise ,.quantite_pamplemousse , .quantite_framboise , .quantite_citron {
     display: flex;
     justify-content: center;
@@ -193,7 +194,7 @@ Updated: 2024-07-01 08:44:36
     border:none!important;
     border-radius:0px!important;
     padding: 0px 0px 0px 3px !important;
-    }
+}
 
 .separation-horizontale {
     width: 860px;
@@ -215,15 +216,14 @@ Updated: 2024-07-01 08:44:36
 
 .colonne1,.colonne2 {
     display:flex;
-    flex-direction: column;
-    justify-items: space-between;
-    align-content: left;
-    margin:0px 0px 0px 0px !important;
-    padding: 0px !important;
+    flex-direction:column;
+    justify-content:space-between;
+    margin:0px !important;
+    padding:0px !important;
 }
 
 .colonne1 h2,.colonne2 h2 {
-    margin : 0px;
+    margin :0px;
 }
 
 .colonne1 p,.colonne2 p {
@@ -234,16 +234,14 @@ Updated: 2024-07-01 08:44:36
     width: 1px;
     height:447px;
     background-color: white;
-    margin: 0px 0px;
+    padding:0px 1px;
+
 }
 
 .wpcf7 form {
-    display: flex;
     color: white;
     font-size: 20px!important;
     font-weight: 400!important;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
 
 .champ-form{
@@ -255,16 +253,11 @@ Updated: 2024-07-01 08:44:36
     border:none!important;
 }
 
-.boissons {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
 .valid_commande {
     display: flex;
     justify-content: center;
 }
+
 #bouton_commander {
     width: 198px!important;
     height: 55px!important;

@@ -36,7 +36,10 @@ function ajout_lien_admin_au_header($items, $args)
     }
     return $items;
 }
+
 add_filter('wp_nav_menu_items', 'ajout_lien_admin_au_header', 10, 2);
+
+
 // ------------------------------------------------------------------------------------------------------------------------------------------------------
 // -----------------------------------------------------------    FOOTER     ----------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -67,10 +70,11 @@ function disposition_images_footer()
         }
     }
     // Affichage des mentions légales
-    echo '<a class="mentions-legales-footer" href="http://planty.local/mentions-legales/" style="position: relative; z-index: 1; background-color: #FFFFFF;">Mentions légales</a>';
+    echo '<a class="mentions-legales-footer" href="http://planty.local/mentions-legales/" style="position: relative;background-color: #FFFFFF;">Mentions légales</a>';
 }
 
 add_action('wp_footer', 'disposition_images_footer');
+
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------------
 //---------------------------------------------------------- PAGE " NOUS RENCONTRER " -------------------------------------------------------------------
