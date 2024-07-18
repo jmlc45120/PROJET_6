@@ -31,7 +31,7 @@ add_action('wp_enqueue_scripts', 'child_theme_configurator_css', 10);
 // GESTION AFFICHAGE LIEN " admin " SI UTILISATEUR CONNECTE :
 function ajout_lien_admin_au_header($items, $args)
 {
-    if (is_user_logged_in() && $args->menu == 'test') {
+    if (is_user_logged_in() && $args->menu == 'menu_header') {
         $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a class="hfe-menu-item" href="' . get_admin_url() . '">Admin</a></li>';
     }
     return $items;
