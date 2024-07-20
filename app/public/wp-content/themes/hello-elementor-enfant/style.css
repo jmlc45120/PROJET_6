@@ -8,8 +8,8 @@ Description: Hello Elementor is a lightweight and minimalist WordPress theme tha
 Tags: accessibility-ready,flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
 Version: 3.1.0.1719823476
 Updated: 2024-07-01 08:44:36
-
 */
+
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 /* -----------------------------------------------------------    HEADER     ---------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -84,9 +84,50 @@ Updated: 2024-07-01 08:44:36
     font-weight: 700;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------------------------------------------    PAGE ACCUEIL  :   ----------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+
+#conteneur-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#feuille-gauche,
+#canette-centre,
+#feuille-droite {
+    position: relative;
+}
+
+#feuille-gauche {
+    z-index: 1;
+    margin-right: -13%;
+    max-width: 25%;
+}
+
+#canette-centre {
+    z-index: 2;
+    max-width: 30%;
+}
+
+#feuille-droite {
+    z-index: 1;
+    margin-left: -14%;
+    max-width: 25%;
+}
+
+#feuille-gauche img,
+#canette-centre img,
+#feuille-droite img {
+    width: 100%;
+    height: auto;
+}
+
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
-/* --------------------------------------------------    PAGE " NOUS RENCONTRER "     ------------------------------------------------------- */
+/* --------------------------------------------------    PAGE " NOUS RENCONTRER "  :   ------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 
 /* AJUSTEMENT DE L'EMPLACEMENT DE LA FLEUR A GAUCHE DU TITRE : */
@@ -160,7 +201,7 @@ Updated: 2024-07-01 08:44:36
 
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------    PAGE " COMMANDER "    ---------------------------------------------------------- */
+/* ------------------------------------------------------    PAGE " COMMANDER "  :  --------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 
 #container_commander{
@@ -235,7 +276,6 @@ Updated: 2024-07-01 08:44:36
     height:447px;
     background-color: white;
     padding:0px 1px;
-
 }
 
 .wpcf7 form {
@@ -269,4 +309,80 @@ Updated: 2024-07-01 08:44:36
 
 #bouton_commander:hover {
     background-color: #C02E44;
+}
+
+/* -------------------------------------------------    MEDIA QUERIES PAGE " COMMANDER "  :  --------------------------------------------------- */
+
+@media (max-width: 1024px) {
+
+    .form_commande {
+        display:flex;
+        flex-direction: column;
+        max-width: 800px!important;
+
+    }
+    .quantites_boissons {
+        display:flex;
+        justify-content: space-between;
+        max-width: 800px!important;
+    }
+
+    .colonne1,.colonne2 {
+        padding:0px !important;
+        width: 350px!important;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .champ-saisie-qte {
+        width: 50px !important;
+        height:75px;
+        border:none!important;
+        border-radius:0px!important;
+        padding: 0px 0px 0px 3px !important;
+    }
+
+    .form_commande {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+    .quantites_boissons {
+        display:flex;
+        justify-content: space-between !important;
+        min-width:300px !important ;
+        max-width:400px !important;
+    }
+
+    .saisie-coordonnees {
+        display:flex;
+        flex-direction:column;
+        margin: 40px 0px 0px 30px;
+        width:700px !important;
+        height: 1000px !important;
+    }
+    .separation-verticale {
+         display: none;
+    }
+
+    .separation-horizontale {
+        display: none;
+    }
+
+    .colonne1,.colonne2 {
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        margin:0px !important;
+        padding:0px !important;
+    }
+    
+    .valid_commande {
+        display: flex;
+        justify-content: left;
+        margin-left: 120px;
+    }
 }

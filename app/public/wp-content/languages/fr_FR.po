@@ -5918,7 +5918,7 @@ msgstr "Ce thème ne fonctionne pas avec votre version de WordPress."
 #: wp-admin/includes/class-wp-plugins-list-table.php:1453
 #: wp-admin/includes/plugin.php:1153 wp-admin/includes/theme.php:931
 #: wp-admin/includes/theme.php:962 wp-admin/includes/theme.php:1008
-#: wp-admin/includes/theme.php:1031 wp-admin/includes/update-core.php:1066
+#: wp-admin/includes/theme.php:1031 wp-admin/includes/update-core.php:1071
 #: wp-admin/includes/update.php:789 wp-admin/includes/update.php:816
 #: wp-admin/install.php:255 wp-admin/theme-install.php:358
 #: wp-admin/theme-install.php:381 wp-admin/theme-install.php:563
